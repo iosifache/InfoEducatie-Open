@@ -16,9 +16,8 @@ $(document).ready(function(){
 
             // Verify
          	$("#show").click(function(){
-         		var user = $('#cuvant').val();
-         		var userLower = user.toLowerCase();
-         		if ((user==corect)||(userLower==corect)){
+         		var user = replaceDiacritics($('#cuvant').val().toLowerCase());
+         		if (user==corect){
          			$(".definitie").html("Cuvantul cautat este: <b>" + corect + "</b>. Raspunsul tau este: <b>corect</b>.");
          		}
          		else{

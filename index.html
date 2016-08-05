@@ -1,14 +1,14 @@
-<html class="scroll">
+<html ng-app="sampleApp" ng-controller="SampleCtrl" class="scroll">
 <head>
 
 	<!-- Meta tags -->
 	<meta charset="UTF-8">
-	<meta name="description" content="'Sa scriem corect' este o platforma destinat elevilor din clasele primare, pentru a isi insusi anumite informatii cu privire la scrierea corecta din limba romana">
-	<meta name="keywords" content="Sa scriem corect, ciclu primar, gramatica">
-	<meta name="author" content="Iosif George Andrei">
+	<meta name="description" content="{{data.meta_descriere}}">
+	<meta name="keywords" content="{{data.meta_keywords}}">
+	<meta name="author" content="{{data.meta_author}}">
 
 	<!-- Title -->
-	<title>Sa scriem corect: Acasa</title>
+	<title>{{data.titlu}}: Acasa</title>
 
 	<!-- CSS stylesheets -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -18,6 +18,10 @@
 	<!-- JS scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+	<script src="https://cdn.firebase.com/libs/angularfire/1.2.0/angularfire.min.js"></script>
+	<script src="js/firebase.js"></script>
 	<script src="js/animation.js"></script>
 	<script src="js/pageMentorFunctions.js"></script>
 	<script src="js/intro.js"></script>
@@ -28,13 +32,13 @@
 	<!-- Intro -->
 	<div class="intro">
 		<div class="center vertical-center wow fadeIn">
-			<h3>Sa scriem corect</h3>
-			<p class="motto">Platforma educationala destinata elevilor din ciclul primar</p>
+			<h3>{{data.titlu}}</h3>
+			<p class="motto">{{data.descriere}}</p>
 			<div class="button-group">
-				<a href="materiale.html"><button>Invata<i class="fa fa-graduation-cap"></i></button></a>
-				<a href="plural.html"><button>Pluralul cuvintelor<i class="fa fa-th-large"></i></button></a>
-				<a href="definitie.html"><button>Ghiceste cuvantul<i class="fa fa-question"></i></button></a>
-				<a href="caligrafie.html"><button>Scriere caligrafica<i class="fa fa-hand-peace-o"></i></button></a>
+				<a href="{{data.intro_button_link_1}}"><button class="corect-button white">{{data.intro_button_1}}<i class="fa fa-graduation-cap"></i></button></a>
+				<a href="{{data.intro_button_link_2}}"><button class="corect-button white">{{data.intro_button_2}}<i class="fa fa-th-large"></i></button></a>
+				<a href="{{data.intro_button_link_3}}"><button class="corect-button white">{{data.intro_button_3}}<i class="fa fa-question"></i></button></a>
+				<a href="{{data.intro_button_link_4}}"><button class="corect-button white">{{data.intro_button_4}}<i class="fa fa-hand-peace-o"></i></button></a>
 			</div>
 		</div>
 	</div>
@@ -42,7 +46,7 @@
 	<!-- Page mentor -->
 	<div class="page-mentor wow fadeIn">
 		<img src="image/prof.png">
-		<div class="tooltip">Salut, eu sunt profesor Gramatica si o sa fiu ghidul tau. In centrul paginii, ai trei butoane, ce acceseaza: lista materialelor, dictionarul de plural si jocul de ghicit cuvinte.</div>
+		<div class="tooltip">{{data.mentor_intro}}</div>
 	</div>
 
 </body>

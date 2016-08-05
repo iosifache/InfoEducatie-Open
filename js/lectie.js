@@ -24,7 +24,7 @@ $(document).ready(function(){
         dataType: "html",
         data: {id:id},
         success: function(response){
-            $(".lectie").html(response);
+            $(".lectie").append(response);
             story();
         }
     });

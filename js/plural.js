@@ -13,7 +13,7 @@ $(document).ready(function(){
 			url: sendURL,
 			dataType: 'jsonp',
 			success: function(data){
-				var plural= data["plural"];
+				var plural= replaceDiacritics(data["plural"]);
 				$('#plural').text(plural);
 			}
 		});

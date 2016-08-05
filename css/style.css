@@ -115,6 +115,41 @@ i{
 	color: #fff;
 }
 
+/* Buttons */
+button.corect-button.white{
+	height: 40px;
+	width: 200px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	color: #3498db;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	font-weight: 600;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+button.corect-button.blue{
+	height: 40px;
+	background-color: #3498db;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 3px;
+	font-weight: 600;
+	font-size: 14px;
+	width: 200px;
+	cursor: pointer;
+}
+
+button.corect-button i{
+	display: inline;
+	margin: 0 0 0 3px;
+}
+
+.button-group{
+	margin: 30px 0;
+}
+
 /* Intro */
 .intro{
 	position: relative;
@@ -139,28 +174,6 @@ i{
 	padding: 0;
 	font-size: 20px;
 	color: #fff;
-}
-
-.intro button{
-	height: 40px;
-	width: 200px;
-	margin-bottom: 10px;
-	background-color: #fff;
-	color: #3498db;
-	border: 2px solid #fff;
-	border-radius: 3px;
-	font-weight: 600;
-	font-size: 14px;
-	cursor: pointer;
-}
-
-.intro button i{
-	display: inline;
-	margin: 0 0 0 3px;
-}
-
-.button-group{
-	margin: 30px 0;
 }
 
 /* Invata */
@@ -223,23 +236,10 @@ i{
 }
 
 .invata button{
-	height: 40px;
 	margin: 20px 0 0 0;
-	background-color: #fff;
-	color: #3498db;
-	border: 2px solid #fff;
-	border-radius: 3px;
-	font-weight: 600;
-	font-size: 14px;
-	width: 200px;
-	cursor: pointer;
 }
 
 /* Lectie */
-.lectie{
-
-}
-
 .lectie h3{
 	top: 0;
 	margin: 0;
@@ -291,29 +291,7 @@ i{
 }
 
 .lectie button{
-	height: 40px;
 	margin: 20px 0 0 0;
-	background-color: #3498db;
-	color: #fff;
-	border: 2px solid #fff;
-	border-radius: 3px;
-	font-weight: 600;
-	font-size: 14px;
-	width: 200px;
-	cursor: pointer;
-}
-
-.testBody button{
-	height: 40px;
-	margin: 20px 0 0 0;
-	background-color: #3498db;
-	color: #fff;
-	border: 2px solid #fff;
-	border-radius: 3px;
-	font-weight: 600;
-	font-size: 14px;
-	width: 200px;
-	cursor: pointer;
 }
 
 .testBody ul{
@@ -324,6 +302,10 @@ i{
 
 .testBody input[type=radio]{
 	margin: 0 10px 0 0;
+}
+
+.testBody button{
+	margin: 20px 0 0 0;
 }
 
 /* Plural si definitie */
@@ -372,18 +354,6 @@ i{
 	font-size: 14px;
 }
 
-.plural button{
-	height: 40px;
-	background-color: #fff;
-	color: #3498db;
-	border: 2px solid #fff;
-	border-radius: 3px;
-	font-weight: 600;
-	font-size: 14px;
-	width: 200px;
-	cursor: pointer;
-}
-
 .plural button i{
 	display: inline;
 	margin: 0 0 0 3px;
@@ -423,37 +393,19 @@ i{
 /* Hovers */
 @media only screen and (min-width: 650px){
 
-	.intro button:hover{
-		background-color: #3498db;
-		color: #fff;
-	}
-
-
-	.plural button:hover{
-		background-color: #3498db;
-		color: #fff;
-	}
-
-	.invata button:hover{
-		background-color: #3498db;
-		color: #fff;
-	}
-
 	.invata .material:hover .title{
 		color: #3498db;
 	}
 
-	.lectie button:hover{
-		height: 40px;
-		margin: 20px 0 0 0;
+	button.corect-button.white:hover{
+		background-color: #3498db;
+		color: #fff;
+	}
+
+	button.corect-button.blue:hover{
 		background-color: #fff;
 		color: #3498db;
-		border: 2px solid #3498db;
-		border-radius: 3px;
-		font-weight: 600;
-		font-size: 14px;
-		width: 200px;
-		cursor: pointer;
+		border-color: #3498db;
 	}
 		
 }

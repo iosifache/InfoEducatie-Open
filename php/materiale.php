@@ -34,7 +34,7 @@
 		echo '</div>';
 		echo '</a>';
 	}
-	echo '<a href="index.html"><button>Inapoi</button></a>';
+	echo '<a href="index.html"><button class="corect-button white">Inapoi</button></a>';
 
 	// Disconnect
 	mysqli_close($conn);
