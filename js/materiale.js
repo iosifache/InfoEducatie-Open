@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-	// Story
-	function story(){
-		showTooltip();
-		hideTooltip(5000);
-	}
+    // Story
+    function story(){
+        showTooltip();
+        hideTooltip(5000);
+    }
 
     // Generate
     $.ajax({
