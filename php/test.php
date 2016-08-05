@@ -21,9 +21,8 @@
 		echo '</div>';
 		echo '</div>';
 		echo '<div class="grid">';
-		echo '<div id="quiz"></div>';
-  		echo '<button id="button">Urmatorul</button>';
-		echo '<a href="materiale.html"><button>Inapoi</button></a>';
+		// echo '<div id="quiz"></div>';
+  		// echo '<button id="button">Urmatorul</button>';
 		echo '<div class="page-mentor">';
 		echo '<img src="image/' . $row["image"] . '.png">';
 		echo '<div class="tooltip blue">' . $row["dialog"] . '</div>';
