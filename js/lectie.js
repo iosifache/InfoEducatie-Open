@@ -11,27 +11,6 @@ $(document).ready(function(){
 
     // Story
     function story(){
-        function showTooltip(){
-            $(".tooltip").css("opacity", "1");
-        }
-        function showTooltipTimer(timer){
-            setTimeout(function(){
-                $(".tooltip").css("opacity", "1");
-            }, timer);
-        }
-        function hideTooltip(timer){
-            setTimeout(function(){
-                $(".tooltip").removeAttr('style');
-            }, timer);
-        }
-        function changeText(newest){
-            $(".tooltip").text(newest);
-        }
-        function changeTextTimer(newest, timer){
-            setTimeout(function(){
-                $(".tooltip").text(newest);
-            }, timer);
-        }
         showTooltip();
         hideTooltip(5000);
         changeTextTimer("In partea de sus poti vedea titlul primit daca vei termina aceasta lectie. Mai jos, ai continutul lectiei.", 6000);
@@ -41,7 +20,7 @@ $(document).ready(function(){
     // Generate
     $.ajax({
         type: "GET",
-        url: "php/generateLesson.php",
+        url: "php/lectie.php",
         dataType: "html",
         data: {id:id},
         success: function(response){
