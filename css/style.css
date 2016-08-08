@@ -5,407 +5,407 @@
 
 /* Reset */
 body{
-	margin: 0;
-	padding: 0;
-	font-family: 'Open Sans', sans-serif;
-	text-rendering: auto;
-	-webkit-font-smoothing: antialiased;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
 
 }
 
 a{
-	color: inherit;
-	text-decoration: none;
+color: inherit;
+text-decoration: none;
 }
 
 i{
-	font-style: normal;
+font-style: normal;
 }
 
 *{
-	transition: all 0.25s linear;
+transition: all 0.25s linear;
 }
 
 *:focus{
-	outline: 0;
+outline: 0;
 }
 
 /* Align helpers */
 .center{
-	text-align: center;
+text-align: center;
 }
 
 .vertical-center{
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+position: relative;
+top: 50%;
+transform: translateY(-50%);
 }
 
 .right{
-	text-align: right;
+text-align: right;
 }
 
 .left{
-	text-align: left;
+text-align: left;
 }
 
 /* Scrollbar and overflows */
 .scroll{
-	overflow-y: scroll;
+overflow-y: scroll;
 }
 
 .no-scroll{
-	overflow: hidden;
+overflow: hidden;
 }
 
 .scroll::-webkit-scrollbar-track{
-	background-color: #fff;
+background-color: #fff;
 }
 
 .scroll::-webkit-scrollbar{
-	width: 6px;
-	background-color: #fff;
+width: 6px;
+background-color: #fff;
 }
 
 .scroll::-webkit-scrollbar-thumb{
-	background: #000;
+background: #000;
 }
 
 /* Special fonts */
 .kaushan{
-	font-family: 'Kaushan Script', cursive;
+font-family: 'Kaushan Script', cursive;
 }
 
 /* Page mentor */
 .page-mentor{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	margin: 10px;
+position: absolute;
+right: 0;
+bottom: 0;
+margin: 10px;
 }
 
 .page-mentor img{
-	height: 150px;
-	cursor: pointer;
+height: 150px;
+cursor: pointer;
 }
 
 .page-mentor .tooltip{
-	position: absolute;
-	width: 400px;
-	padding: 10px;
-	margin: -140px -420px;
-	background-color: #fff;
-	color: #3498db;
-	border-radius: 5px;
-	opacity: 0;
+position: absolute;
+width: 400px;
+padding: 10px;
+margin: -140px -420px;
+background-color: #fff;
+color: #3498db;
+border-radius: 5px;
+opacity: 0;
 }
 
 .page-mentor img:hover + .tooltip{
-	opacity: 1;
+opacity: 1;
 }
 
 .page-mentor .tooltip.blue{
-	background-color: #3498db;
-	color: #fff;
+background-color: #3498db;
+color: #fff;
 }
 
 /* Buttons */
 button.corect-button.white{
-	height: 40px;
-	width: 200px;
-	margin-bottom: 10px;
-	background-color: #fff;
-	color: #3498db;
-	border: 2px solid #fff;
-	border-radius: 3px;
-	font-weight: 600;
-	font-size: 14px;
-	cursor: pointer;
+height: 40px;
+width: 200px;
+margin-bottom: 10px;
+background-color: #fff;
+color: #3498db;
+border: 2px solid #fff;
+border-radius: 3px;
+font-weight: 600;
+font-size: 14px;
+cursor: pointer;
 }
 
 button.corect-button.blue{
-	height: 40px;
-	background-color: #3498db;
-	color: #fff;
-	border: 2px solid #fff;
-	border-radius: 3px;
-	font-weight: 600;
-	font-size: 14px;
-	width: 200px;
-	cursor: pointer;
+height: 40px;
+background-color: #3498db;
+color: #fff;
+border: 2px solid #fff;
+border-radius: 3px;
+font-weight: 600;
+font-size: 14px;
+width: 200px;
+cursor: pointer;
 }
 
 button.corect-button i{
-	display: inline;
-	margin: 0 0 0 3px;
+display: inline;
+margin: 0 0 0 3px;
 }
 
 .button-group{
-	margin: 30px 0;
+margin: 30px 0;
 }
 
 /* Intro */
 .intro{
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: #3498db;
+position: relative;
+display: block;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background-color: #3498db;
 }
 
 .intro h3{
-	margin: 0;
-	padding: 0;
-	font-size: 100px;
-	font-family: 'Kaushan Script', cursive;
-	color: #fff;
+margin: 0;
+padding: 0;
+font-size: 100px;
+font-family: 'Kaushan Script', cursive;
+color: #fff;
 }
 
 .intro p.motto{
-	margin: -30px 0 0 0;
-	padding: 0;
-	font-size: 20px;
-	color: #fff;
+margin: -30px 0 0 0;
+padding: 0;
+font-size: 20px;
+color: #fff;
 }
 
 /* Invata */
 .invata{
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: #3498db;
+position: relative;
+display: block;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background-color: #3498db;
 }
 
 .invata div.center{
-	width: 100%;
+width: 100%;
 }
 
 .invata h3{
-	height: 100px;
-	top: 0;
-	margin: 0;
-	padding: 0;
-	font-size: 50px;
-	font-family: 'Kaushan Script', cursive;
-	color: #fff;
+height: 100px;
+top: 0;
+margin: 0;
+padding: 0;
+font-size: 50px;
+font-family: 'Kaushan Script', cursive;
+color: #fff;
 }
 
 .invata .material{
-	display: inline-block;
-	width: 100%;
-	height: 100px;
-	margin: 7px 0;
-	padding: 10px;
-	background-color: #fff;
-	color: #000;
-	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
-	border-radius: 5px;
+display: inline-block;
+width: 100%;
+height: 100px;
+margin: 7px 0;
+padding: 10px;
+background-color: #fff;
+color: #000;
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
+border-radius: 5px;
 }
 
 .invata .material .title{
-	margin: 0;
-	padding: 0;
-	font-size: 20px;
-	font-weight: 600;
+margin: 0;
+padding: 0;
+font-size: 20px;
+font-weight: 600;
 }
 
 .invata .material .offer{
-	margin: 3px 0 0 0;
-	padding: 0;
-	font-size: 16px;
-	font-weight: 300;
+margin: 3px 0 0 0;
+padding: 0;
+font-size: 16px;
+font-weight: 300;
 }
 
 .invata .material img{
-	height: 80px;
+height: 80px;
 }
 
 .invata .material i{
-	color: #3498db;
+color: #3498db;
 }
 
 .invata button{
-	margin: 20px 0 0 0;
+margin: 20px 0 0 0;
 }
 
 /* Lectie */
 .lectie h3{
-	top: 0;
-	margin: 0;
-	padding: 0;
-	font-size: 50px;
-	font-family: 'Kaushan Script', cursive;
-	color: #3498db;
+top: 0;
+margin: 0;
+padding: 0;
+font-size: 50px;
+font-family: 'Kaushan Script', cursive;
+color: #3498db;
 }
 
 .lectie .detalii{
-	width: 100%;
-	height: 200px;
-	background-color: #3498db;
-	margin: 0 0 20px 0;
+width: 100%;
+height: 200px;
+background-color: #3498db;
+margin: 0 0 20px 0;
 }
 
 .lectie .detalii .grid div{
-	float: left;
+float: left;
 }
 
 .lectie .detalii .title{
-	margin: 30px 0 0 0;
-	padding: 0;
-	font-size: 50px;
-	font-weight: 700;
-	color: #fff;
+margin: 30px 0 0 0;
+padding: 0;
+font-size: 50px;
+font-weight: 700;
+color: #fff;
 }
 
 .lectie .detalii .rank{
-	margin: 0;
-	padding: 0;
-	color: #fff;
+margin: 0;
+padding: 0;
+color: #fff;
 }
 
 .lectie .detalii .mentor{
-	margin: 0;
-	padding: 0;
-	color: #fff;
+margin: 0;
+padding: 0;
+color: #fff;
 }
 
 .lectie .detalii i{
-	margin-right: 3px;
+margin-right: 3px;
 }
 
 .lectie .detalii img{
-	height: 150px;
-	margin-top: 25px;
-	float: right;
+height: 150px;
+margin-top: 25px;
+float: right;
 }
 
 .lectie button{
-	margin: 20px 0 0 0;
+margin: 20px 0 0 0;
 }
 
 .testBody ul{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+margin: 0;
+padding: 0;
+list-style-type: none;
 }
 
 .testBody input[type=radio]{
-	margin: 0 10px 0 0;
+margin: 0 10px 0 0;
 }
 
 .testBody button{
-	margin: 20px 0 0 0;
+margin: 20px 0 0 0;
 }
 
 /* Plural si definitie */
 .plural{
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-  	background-color: #3498db;
+position: relative;
+display: block;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background-color: #3498db;
 }
 
 .plural h3{
-	margin: 0;
-	padding: 0;
-	font-size: 100px;
-	font-family: 'Kaushan Script', cursive;
-	color: #fff;
+margin: 0;
+padding: 0;
+font-size: 100px;
+font-family: 'Kaushan Script', cursive;
+color: #fff;
 }
 
 .plural p{
-	margin: 0;
-	padding: 0;
-	font-size: 20px;
-	color: #fff;
+margin: 0;
+padding: 0;
+font-size: 20px;
+color: #fff;
 }
 
 .plural input{
-	display: inline-block;
-	position: relative;
-	width: 100%;
-	max-height: 700px;
-	height: 30px;
-	margin: 30px 10px 0 10px;
-	padding: 3px;
-	background-color: #fff;
-	color: #3498db;
-	box-shadow: none;
-	border-width: 0px 0px 1px 0px;
-	border-color: #fff;
-	border-radius: 5px;
-	line-height: 30px;
-	font-size: 18px;
-	font-weight: 400;
-	font-size: 14px;
+display: inline-block;
+position: relative;
+width: 100%;
+max-height: 700px;
+height: 30px;
+margin: 30px 10px 0 10px;
+padding: 3px;
+background-color: #fff;
+color: #3498db;
+box-shadow: none;
+border-width: 0px 0px 1px 0px;
+border-color: #fff;
+border-radius: 5px;
+line-height: 30px;
+font-size: 18px;
+font-weight: 400;
+font-size: 14px;
 }
 
 .plural button i{
-	display: inline;
-	margin: 0 0 0 3px;
+display: inline;
+margin: 0 0 0 3px;
 }
 
 /* Scriere caligrafica */
 .draw h3{
-	height: 100px;
-	top: 0;
-	margin: 0;
-	padding: 0;
-	font-size: 50px;
-	font-family: 'Kaushan Script', cursive;
-	color: #3498db;
+height: 100px;
+top: 0;
+margin: 0;
+padding: 0;
+font-size: 50px;
+font-family: 'Kaushan Script', cursive;
+color: #3498db;
 }
 
 .draw .text{
-	display: inline-block;
-	position: relative;
-	width: 1000px;
-	height: 300px;
-	margin: calc(50% - 450px) calc(50% - 500px);
-	font-family: 'Indie Flower', cursive;
-	font-size: 200px;
-	color: #3498db;
-	text-align: center;
+display: inline-block;
+position: relative;
+width: 1000px;
+height: 300px;
+margin: calc(50% - 450px) calc(50% - 500px);
+font-family: 'Indie Flower', cursive;
+font-size: 200px;
+color: #3498db;
+text-align: center;
 }
 
 .draw canvas{
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);`
+display: inline-block;
+position: absolute;
+top: 0;
+left: 0;
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);`
 }
 
 /* Hovers */
 @media only screen and (min-width: 650px){
 
-	.invata .material:hover .title{
-		color: #3498db;
-	}
+.invata .material:hover .title{
+color: #3498db;
+}
 
-	button.corect-button.white:hover{
-		background-color: #3498db;
-		color: #fff;
-	}
+button.corect-button.white:hover{
+background-color: #3498db;
+color: #fff;
+}
 
-	button.corect-button.blue:hover{
-		background-color: #fff;
-		color: #3498db;
-		border-color: #3498db;
-	}
-		
+button.corect-button.blue:hover{
+background-color: #fff;
+color: #3498db;
+border-color: #3498db;
+}
+
 }
